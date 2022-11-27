@@ -1,0 +1,97 @@
+/* .header,
+.content,
+.footer,
+.menu,
+.intro,
+.info,
+.quote,
+.sign*/
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(224, 224, 224);
+}
+
+/* First Section */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px;
+    height: 24px;
+    background: rgb(214, 214, 214);
+}
+
+.header .menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 12px;
+}
+
+/* Second Section */
+
+.content {
+    display: flex;
+    flex: 1;
+    justify-content: space-between; 
+    flex-direction: column;
+    background-color: rgb(236, 236, 236);
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: 16px;
+    background-color: rgb(44, 0, 70);
+}
+
+/* Third Section */
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: rgb(36, 2, 56);
+}
+
+.info .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: 16px;
+    background-color: rgb(44, 0, 70);
+}
+
+.sign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: 16px;
+    background-color: rgb(36, 2, 56);
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    height: 42px;
+    background-color: rgb(22, 22, 22);
+}
