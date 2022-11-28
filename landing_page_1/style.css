@@ -16,7 +16,8 @@ body {
     align-items: center;
     padding: 20px 100px;
     height: 24px;
-    background: #4B5320;
+    /* background: #4B5320; */
+    background-color: #0f2412;
 }
 
 .header .menu {
@@ -42,7 +43,9 @@ body {
     align-items: center;
     gap: 16px;
     padding: 20px 100px;
-    background-color: #4B5320;
+    /* background-color: #4B5320; */
+    background-color: #0f2412;
+    
 }
 
 .info {
@@ -78,7 +81,8 @@ body {
     margin: 50px 200px;
     padding: 20px 50px;
     border-radius: 10px;
-    background-color: #0f2412;
+    /* background-color: #0f2412; */
+    background-color: #4B5320;
 }
 
 /* Footer */
@@ -88,7 +92,8 @@ body {
     justify-content: center;
     padding: 20px 100px;
     height: 42px;
-    background-color: #4B5320
+    /* background-color: #4B5320 */
+    background-color: #0f2412;
 }
 
 /* ------- Specific Visual Changes ------- */
@@ -104,12 +109,13 @@ body {
 .info .container .infobox img {
     width: 200px;
     height: 200px;
-    border: 4px solid #0f2412;
+    border: 4px solid #4B5320;
     padding: 10px;
     border-radius: 15px;
 }
 
 .intro .mediabox img {
+    border: none;
     width: 600px;
     height: 300px;
 }
@@ -118,7 +124,8 @@ body {
 
 .intro .textbox button, 
 .sign button {
-    background-color: #0f2412;
+    /* background-color: #0f2412; */
+    background-color: #4B5320;
     color: #ffffff;
     border-radius: 10px;
     border: none;
@@ -155,7 +162,7 @@ body {
 .info h1 {
     font-size: 42px;
     font-weight: bold;
-    color: #111111;
+    color: #0f2412;
 }
 
 .info h2 {
