@@ -16,7 +16,6 @@ body {
     align-items: center;
     padding: 20px 100px;
     height: 24px;
-    /* background: #4B5320; */
     background-color: #0f2412;
 }
 
@@ -43,7 +42,6 @@ body {
     align-items: center;
     gap: 16px;
     padding: 20px 100px;
-    /* background-color: #4B5320; */
     background-color: #0f2412;
     
 }
@@ -63,7 +61,6 @@ body {
     gap: 16px;
 }
 
-
 .quote {
     display: flex;
     flex-direction: column;
@@ -81,7 +78,6 @@ body {
     margin: 50px 200px;
     padding: 20px 50px;
     border-radius: 10px;
-    /* background-color: #0f2412; */
     background-color: #4B5320;
 }
 
@@ -92,7 +88,6 @@ body {
     justify-content: center;
     padding: 20px 100px;
     height: 42px;
-    /* background-color: #4B5320 */
     background-color: #0f2412;
 }
 
@@ -124,7 +119,6 @@ body {
 
 .intro .textbox button, 
 .sign button {
-    /* background-color: #0f2412; */
     background-color: #4B5320;
     color: #ffffff;
     border-radius: 10px;
