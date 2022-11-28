@@ -4,8 +4,6 @@ body {
     display: flex;
     flex-direction: column;
     background-color: rgb(224, 224, 224);
-    text-align: center;
-    font-family: 'Roboto', arial;
 }
 
 /* ------- General Structure and Visual Changes ------- */
@@ -42,7 +40,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-basis: 150px;
     gap: 16px;
     padding: 20px 100px;
     background-color: #4B5320;
@@ -53,7 +50,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-basis: 150px;
+    gap: 16px;
     padding: 20px 100px;
 }
 
@@ -71,20 +68,17 @@ body {
     gap: 16px;
     padding: 20px 100px;
     background-color: rgba(38, 56, 38, 0.644);
-    font-style: italic;
-    font-weight: light;
-    font-size: 32px;
 }
 
 .sign {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 16px;
-    margin: 40px 200px;
-    padding: 20px 100px;
+    margin: 50px 200px;
+    padding: 20px 50px;
+    border-radius: 10px;
     background-color: #0f2412;
-    color: #ffffff;
 }
 
 /* Footer */
@@ -123,7 +117,7 @@ body {
 /* Buttons */
 
 .intro .textbox button, 
-.sign button{
+.sign button {
     background-color: #0f2412;
     color: #ffffff;
     border-radius: 10px;
@@ -135,3 +129,66 @@ body {
     border: 1px solid #c4c4c4;
 }
 
+/* Text */
+
+.header,
+.intro,
+.info,
+.sign {
+    text-align: center;
+    font-family: 'Roboto', arial;
+}
+
+.intro h1 {
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.intro h2 {
+    color: #f2f2f2;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.info h1 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #111111;
+}
+
+.info h2 {
+    font-size: 18;
+    font-weight: 200;
+    text-align: center;
+    max-width: 220px;
+    color: #333333;
+}
+
+.quote h1 {
+    font-style: italic;
+    font-weight: 100;
+    font-size: 32px;
+    padding-top: 0px;
+}
+
+.quote h2 {
+    font-size: 16px;
+    font-weight: 900;
+    text-align: right;
+}
+
+.sign h1 {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    color: #ffffff;
+}
+
+.sign h2 {
+    font-size: 12px;
+    font-weight: 300;
+    text-align: left;
+    color: #f2f2f2;
+}
